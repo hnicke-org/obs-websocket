@@ -28,6 +28,9 @@
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QGroupBox" name="pluginSettingsGroupBox">
+     <property name="visible">
+      <bool>false</bool>
+     </property>
      <property name="minimumSize">
       <size>
        <width>0</width>
@@ -125,6 +128,9 @@
    </item>
    <item>
     <widget class="QGroupBox" name="serverSettingsGroupBox">
+     <property name="visible">
+      <bool>false</bool>
+     </property>
      <property name="minimumSize">
       <size>
        <width>0</width>
